@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+{
   "scripts": {
-    "dev": "vite",
-    "build": "npm run build",
-    "start": "serve -s build",
-    "preview": "vite preview"
-  },
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  }
+}
   "dependencies": {
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
