@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
-    "start": "serve -s build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview">? 
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
