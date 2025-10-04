@@ -3,5 +3,5 @@ services:
     name: my-react-app
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npx serve -s build
-    staticPublishPath: build
+    startCommand: npx serve -s dist
+    staticPublishPath: dist
